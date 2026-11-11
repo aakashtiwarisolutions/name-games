@@ -1,0 +1,266 @@
+{
+ "clean": {
+  "xgb": {
+   "auc": 0.8156021288837532,
+   "recall": 0.494155069582505,
+   "fpr": 0.04166821682354254,
+   "threshold": 0.47080928087234497
+  },
+  "ngram": {
+   "auc": 0.8765370350906947,
+   "recall": 0.6248906560636183,
+   "fpr": 0.04933219241787269,
+   "threshold": 0.45898182860821907
+  },
+  "blend": {
+   "auc": 0.8753040535018247,
+   "recall": 0.6147117296222664,
+   "fpr": 0.043379590014509466,
+   "threshold": 0.4227095065858455
+  }
+ },
+ "sizes": {
+  "train": 148868,
+  "val": 16667,
+  "test": 39454
+ },
+ "detected": {
+  "xgb": 5179,
+  "ngram": 6597,
+  "blend": 6498
+ },
+ "n_phish_hosts_test": 10707,
+ "greedy": {
+  "xgb": {
+   "budget_1": 0.4746666666666667,
+   "budget_2": 0.6113333333333333,
+   "budget_3": 0.7086666666666667,
+   "budget_4": 0.7506666666666667,
+   "median_queries_success": 34.0
+  },
+  "ngram": {
+   "budget_1": 0.5906666666666667,
+   "budget_2": 0.8493333333333334,
+   "budget_3": 0.9266666666666666,
+   "budget_4": 0.952,
+   "median_queries_success": 33.0
+  },
+  "blend": {
+   "budget_1": 0.48533333333333334,
+   "budget_2": 0.68,
+   "budget_3": 0.7793333333333333,
+   "budget_4": 0.8393333333333334,
+   "median_queries_success": 34.0
+  }
+ },
+ "single_op_blend": {
+  "tld": {
+   "applicable": 1.0,
+   "evasion_all": 0.44733333333333336,
+   "evasion_when_applicable": 0.44733333333333336
+  },
+  "subdomain": {
+   "applicable": 0.12533333333333332,
+   "evasion_all": 0.0,
+   "evasion_when_applicable": 0.0
+  },
+  "keyword": {
+   "applicable": 0.059333333333333335,
+   "evasion_all": 0.017333333333333333,
+   "evasion_when_applicable": 0.29213483146067415
+  },
+  "hyphen": {
+   "applicable": 0.296,
+   "evasion_all": 0.03,
+   "evasion_when_applicable": 0.10135135135135136
+  },
+  "digit": {
+   "applicable": 0.336,
+   "evasion_all": 0.054,
+   "evasion_when_applicable": 0.16071428571428573
+  },
+  "word": {
+   "applicable": 1.0,
+   "evasion_all": 0.15733333333333333,
+   "evasion_when_applicable": 0.15733333333333333
+  },
+  "glyph": {
+   "applicable": 0.8433333333333334,
+   "evasion_all": 0.012,
+   "evasion_when_applicable": 0.014229249011857707
+  }
+ },
+ "random": {
+  "xgb": {
+   "budget_1": 0.12533333333333332,
+   "budget_2": 0.142,
+   "budget_3": 0.14333333333333334,
+   "budget_4": 0.128
+  },
+  "ngram": {
+   "budget_1": 0.09333333333333334,
+   "budget_2": 0.13733333333333334,
+   "budget_3": 0.134,
+   "budget_4": 0.122
+  },
+  "blend": {
+   "budget_1": 0.07,
+   "budget_2": 0.116,
+   "budget_3": 0.11,
+   "budget_4": 0.10133333333333333
+  }
+ },
+ "transfer": {
+  "xgb": {
+   "xgb": 1.0,
+   "ngram": 0.5755467196819085,
+   "blend": 0.6931506849315069
+  },
+  "ngram": {
+   "xgb": 0.4509415262636274,
+   "ngram": 1.0,
+   "blend": 0.5986290936785986
+  },
+  "blend": {
+   "xgb": 0.8113006396588486,
+   "ngram": 0.864841745081266,
+   "blend": 1.0
+  }
+ },
+ "greedy_blend_op_usage": {
+  "tld": 1135,
+  "hyphen": 117,
+  "digit": 301,
+  "word": 373,
+  "keyword": 65,
+  "glyph": 21,
+  "subdomain": 107
+ },
+ "examples": [
+  [
+   "gapp.oss-ap-southeast-5.aliyuncs.com",
+   "gapp.ossapsoutheast.aliyuncs.org",
+   "3.0"
+  ],
+  [
+   "docread.oss-eu-central-1.aliyuncs.com",
+   "docread.osseucentral.aliyuncs.org",
+   "3.0"
+  ],
+  [
+   "yoindomin-irs.ml",
+   "yoindominirs.org",
+   "2.0"
+  ],
+  [
+   "iran-peygiri.ml",
+   "iran-peygiri.org",
+   "1.0"
+  ],
+  [
+   "confirm-profile-nab.com",
+   "profile-nab.org",
+   "2.0"
+  ],
+  [
+   "ebisa01923023.royalwebhosting.net",
+   "ebisa.royalwebhostinghousecity.org",
+   "4.0"
+  ],
+  [
+   "nqgvyv.oss-ap-southeast-5.aliyuncs.com",
+   "ossapsoutheast.aliyuncs.org",
+   "4.0"
+  ],
+  [
+   "shaparakpayer.cf",
+   "shaparakpayer.org",
+   "1.0"
+  ],
+  [
+   "metamaskdesk.com",
+   "metamaskdeskcity.org",
+   "2.0"
+  ],
+  [
+   "caderastreamento.com.br",
+   "caderastreamento.org",
+   "1.0"
+  ],
+  [
+   "reality.oss-ap-northeast-2.aliyuncs.com",
+   "ossapnortheast.aliyuncs.org",
+   "4.0"
+  ],
+  [
+   "api082904.seemonitor.xyz",
+   "api.plusplusseemonitor.org",
+   "4.0"
+  ],
+  [
+   "jk8681oy.oss-eu-central-1.aliyuncs.com",
+   "osseucentral.aliyuncs.org",
+   "4.0"
+  ],
+  [
+   "trafiq.party",
+   "trafiq.org",
+   "1.0"
+  ],
+  [
+   "toyotathaihoa3s.com",
+   "toyotathaihoa3s.org",
+   "1.0"
+  ],
+  [
+   "sadad-shaparak.cf",
+   "sadad-shaparak.org",
+   "1.0"
+  ],
+  [
+   "mpoczta-odnowic.life",
+   "mpoczta-odnowic.org",
+   "1.0"
+  ],
+  [
+   "amazcecm-co-jp.amazaeocn.66422.top",
+   "amazaeocn.org",
+   "3.0"
+  ],
+  [
+   "xn--9kqv03dn4b.xyz",
+   "xn-kqvdnb.org",
+   "2.0"
+  ],
+  [
+   "cu78892.tw1.ru",
+   "cu.tw.org",
+   "2.0"
+  ],
+  [
+   "pluzz.oss-eu-central-1.aliyuncs.com",
+   "pluzz.osseucentral.aliyuncs.org",
+   "3.0"
+  ],
+  [
+   "payegiri-lr.cf",
+   "payegiri-lr.org",
+   "1.0"
+  ],
+  [
+   "7tf1.short.gy",
+   "7tf1.cityshort.org",
+   "2.0"
+  ],
+  [
+   "sgpay.top",
+   "sgpay.org",
+   "1.0"
+  ],
+  [
+   "web-support-info.preview-domain.com",
+   "web-info.citypreview-domain.org",
+   "3.0"
+  ]
+ ]
+}
