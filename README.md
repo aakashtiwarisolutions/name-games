@@ -2,6 +2,8 @@
 
 **Paper:** [Name Games: Adversarial Domain Renaming Against Machine Learning Phishing Detectors](paper/Tiwari_Name_Games_2026.pdf)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24187103.svg)](https://doi.org/10.5281/zenodo.24187103)
+
 **Related project:** [QRShield](https://github.com/aakashtiwarisolutions/QRShield), the real-time QR code scanner whose models are attacked here.
 
 Machine learning models that flag phishing links from the host name alone are useful when a decision has to be made before a page opens, for example when scanning a QR code. But every character such a model sees is chosen by the attacker. This project asks how cheaply an attacker can rename a phishing host to slip past these models, and whether retraining on renamed hosts helps.
