@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Name Games: Adversarial Domain Renaming Against Machine Learning Phishing Detectors"
+authors:
+  - family-names: Tiwari
+    given-names: Aakash
+    affiliation: Rowan University
+version: 1.0.0
+date-released: 2026-11-13
+license: MIT
+repository-code: "https://github.com/aakashtiwarisolutions/name-games"
+keywords:
+  - adversarial machine learning
+  - phishing detection
+  - cybersecurity
